@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>www.mawadaallnaal.com</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+   
+    
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient( to top left,#c178c6,rgb(245, 245, 245) );
+    }
+
+    .navbar {
+      background-color: #511851;
+      border-radius: 0px 50px 50px 50px ;
+     
+    }
+
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #000000;
+    }
+
+    .jumbotron {
+      background-image: url('your-background-image.jpg');
+      background-size: cover;
+      background-color:  #762476;
+      color: rgb(245, 245, 245) ;
+      border-radius: 60px 60px 60px 0px ;
+      text-align: center;
+      padding: 100px 0;
+      height: 40px;
+     
+
+    }
+    .card {
+      margin-bottom: 30px;
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .footer {
+      background-color: #511851;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      border-radius: 0px 50px 0px 50px ;
+      
+    }
+    h2 {
+      
+    border: 2px solid #000; 
+    padding: 20px; 
+    width: 300px; 
+    background-color: #511851;
+    border-radius: 0px 50px 0px 50px ;
+    color: #fff;
+}
+
+   
+ .parent {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+
+@media (min-width: 768px) {
+  .parent {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .container {
+    width: 23%;
+  }
+}
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Default styles for larger screens */
+@media (min-width: 1200px) {
+    .parent {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 40px;
+    }
+
+    .container {
+        width: 23%;
+    }
+
+    .jumbotron {
+        padding: 100px 0;
+    }
+
+    h2 {
+        width: 300px;
+    }
+}
+
+/* Large tablets and small desktops */
+@media (max-width: 1199px) {
+    .parent {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 30px;
+    }
+
+    .container {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .jumbotron {
+        padding: 80px 0;
+    }
+
+    h2 {
+        width: 250px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .navbar {
+        border-radius: 0 30px 30px 30px;
+    }
+
+    .jumbotron {
+        border-radius: 40px 40px 40px 0;
+        padding: 60px 0;
+    }
+
+    .parent {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 20px auto;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .footer {
+        border-radius: 0 30px 0 30px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navbar {
+        border-radius: 0 20px 20px 20px;
+    }
+
+    .jumbotron {
+        border-radius: 30px 30px 30px 0;
+        padding: 40px 0;
+    }
+
+    .jumbotron h1 {
+        font-size: 1.8rem;
+    }
+
+    .jumbotron p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        padding: 15px;
+        font-size: 1.5rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        padding: 15px 0;
+        border-radius: 0 20px 0 20px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 360px) {
+    .jumbotron h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+
+    li {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 768px) {
+    .jumbotron p {
+        color: #000000;
+    }
+}
+  </style>
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#information">My information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#studies">My studies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiences">My experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#accounts">My accounts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <div class="jumbotron">
+    <h1>Welcome to My Portfolio</h1>
+    <p>My profile contains information about me and my accounts on social media</p>
+  </div>
+
+
+  <div class="parent">
+  <section id="information" class="container">
+    <h2>My information</h2>
+    <h5>Mawadda Bashir Al-Naal</h5>
+    <h5> I was born in 2004</h5>
+    <h5> From Damascus</h5>
+    <h5> I study IT engineering</h5>   
+    <h5>She lives in the city of Al-Bab</h5> 
+    
+  </section>
+
+
+ 
+  <section id="studies" class="container">
+    <h2>My studies</h2>
+    <div class="row">
+   
+      <ul>
+        <li>Fourth-year information engineering student</li>
+        <li>I study in the introductory course for the thousand programmers</li>
+        <li>Several courses in programming</li>
+        <li>Photography course</li>
+        <li>Course in Arabic calligraphy</li>
+        <li>Conversation course in English</li>
+        <li>Several educational courses</li>
+        <li>Authorized by the Holy Quran</li>
+        <li>Courses in Islamic sciences</li>
+
+      </ul>
+      </div>
+     
+  </section>
+    
+
+
+  <section id="experiences" class="container">
+    <h2>My experiences</h2>
+    <h6>Administrative at a center for teaching the Qur’an</h6>
+    <h6>Administrative at Al-Rowad Model School</h6>
+    <h6>Miss Informatics for secondary students at Al-Rowad School</h6>
+    <h6>Managing the social media pages of Khawla Educational Foundation</h6>
+    <h6>Trainer for Office programs at the Anatolia Center</h6>
+    <h6>Professional in making presentations</h6>
+  
+  </section>
+
+
+
+  
+  <section id="accounts" class="container">
+    <h2>My accounts</h2>
+    <p>Contact me on the following accounts:</p>
+    <ul>
+      <li><a href="mailto:mawada2004alnaal@gmail.com"><i class="far fa-envelope"></i> Email: mawada2004alnaal@gmail.com</a></li>
+      <li><a href="tel:+306977311350"><i class="fas fa-phone"></i> Phone: +306977311350</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100015623313561&mibextid=ZbWKwL"><i class="fab fa-facebook"></i> Facebook: Mawada Alnaal</a></li>
+      <li><a href="https://www.instagram.com/mawaddaalnaal?igsh=MWg1ZHpjaDFoZjI3dg=="><i class="fab fa-instagram"></i> Instagram: Mawada Alnaal</a></li>
+      <li><a href="https://x.com/AlnMawadda?t=waCFPVej1PcqxiVybiCICA&s=09"><i class="fab fa-twitter"></i> Twitter: Mawadda Aln</a></li>
+      <li><a href="https://t.me/Mawadda_Alnaal"><i class="fab fa-telegram"></i> Telegram: Mawadda_Alnaal</a></li>
+    </ul>
+  </section>
+  
+   </div>
+  
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy;www.mawadaallnaal.com</p>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
